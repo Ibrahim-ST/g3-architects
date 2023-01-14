@@ -167,7 +167,7 @@ nav>ul {
     margin-bottom: 150px;
 }
 
-.facts {
+.facts-card .facts {
     width: 150px;
     height: 150px;
     border: 1px solid red;
