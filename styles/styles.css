@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
 
+:root {
+    --primary-color: #FF900E;
+}
+
 /*
     // Common styles or utilities //
  */
@@ -20,23 +24,61 @@ header {
     background-color: rgba(255, 144, 14, 0.1);
 }
 
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 50px;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1240px;
-    margin: 0 auto;
-    width: 100%;
+
     height: 80px;
-
-
 }
-.website-title{
-    font-size: 45px;
+
+.website-title {
+    font-size: 2.8rem;
 }
+
 nav>ul {
     display: flex;
     list-style: none;
     gap: 30px;
     font-size: 18px;
+}
+
+/*----------------
+    // banner-section styles //
+ ---------------*/
+.banner-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 862px;
+    width: 100%;
+    text-align: center;
+}
+.banner-description{
+    color: #727272;
+    margin: 30px 0;
+}
+
+.banner-title{
+    font-size: 4rem;
+}
+.primary-button > button {
+    background-color: #FF900E;
+    border: none;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    border-radius: 8px;
+    font-weight: 600;
+}
+.banner>img {
+    width: 100%;
+    margin: 45px 0;
 }
