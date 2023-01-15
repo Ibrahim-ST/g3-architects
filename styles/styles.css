@@ -337,7 +337,7 @@ footer {
         padding: 5px;
     }
     .website-title{
-        font-size: 2.6rem;
+        font-size: 2.4rem;
     }
     .banner-title {
         font-size: 2.2rem;
@@ -397,4 +397,10 @@ footer {
     .sponsor > img{
         width: 50%;
     }
+}
+
+
+/* For Tablet devices  */
+@media only screen and (min-width:577px) and (max-width:992px){
+    
 }
