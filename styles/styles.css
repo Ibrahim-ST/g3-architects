@@ -23,8 +23,7 @@ body {
 /*-------------
     //  Header styles //
 --------------*/
-header,
-footer {
+header, footer {
     background-color: var(--header-color)
 }
 
@@ -39,7 +38,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     height: 80px;
 }
 
@@ -67,7 +65,6 @@ nav>ul {
 
 .banner-info {
     max-width: 862px;
-
 }
 
 .banner-description {
@@ -221,24 +218,28 @@ nav>ul {
     align-items: center;
     flex-direction: column;
     border-radius: 8px;
-    transition: transform 1s; 
+    transition: transform 0.5s; 
 }
+
 .facts:hover{
-    /* width: 170px;
-    height: 170px; */
     background-color: black;
     color: white;
-    transform: scale(1.2) ;
+    box-shadow: inset 0 0 0 3px #53a6eac9;
+    transform: scale(1.2);
+    border: none;
 }
-.facts>img,
-h3,
-p {
+
+.facts > img,h3,p {
     padding: 5px;
 
 }
 
-.facts>img {
+.facts > img {
     width: 45px;
+}
+
+.facts > p{
+    color: var(--secondary-color);
 }
 
 /*-------------
@@ -250,15 +251,18 @@ p {
     background-color: var(--header-color);
     margin: 20px 0 40px;
 }
+
 .technologies .section-title{
     text-align: center;
 }
+
 .dev-tech{
     color: white;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 10px;
 }
+
 .dev-tech-items{
     padding: 10px;
     background-color: #171717;
@@ -267,11 +271,13 @@ p {
     flex-direction: column;
     align-items: center;
 }
+
 .dev-tech-items:hover{
     background-color: white;
     color: black;
     transition: background-color 0.6s;
 }
+
 .dev-tech-items > img{
     width: 150px;
     height: 150px;
