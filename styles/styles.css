@@ -216,7 +216,7 @@ nav>ul {
     width: 150px;
     height: 150px;
     border: 1px solid red;
-    display: flex; 
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -302,12 +302,12 @@ p {
 
 .sponsor {
     max-width: 1140px;
-    margin: 50px auto 100px; 
+    margin: 50px auto 100px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     justify-content: space-evenly;
     justify-items: center;
-    filter: grayscale(1); 
+    filter: grayscale(1);
 }
 
 
@@ -336,15 +336,20 @@ footer {
         align-items: flex-end;
         padding: 5px;
     }
-    .website-title{
+
+    .website-title {
         font-size: 2.4rem;
     }
+
     .banner-title {
         font-size: 2.2rem;
     }
-    .section-description, .feature-description{
+
+    .section-description,
+    .feature-description {
         width: 375px;
     }
+
     .feature-list {
         grid-template-columns: 1fr;
         gap: 5px;
@@ -364,19 +369,23 @@ footer {
         padding-top: 10px;
         gap: 0;
     }
-    .feature{
+
+    .feature {
         padding: 5px;
     }
-    .architect-image{
+
+    .architect-image {
         padding: 10px;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .experience{
+
+    .experience {
         position: unset;
         margin-top: 10px;
     }
+
     .facts-card {
         grid-template-columns: repeat(1, 1fr);
         grid-row-gap: 10px;
@@ -394,13 +403,58 @@ footer {
         justify-items: center;
         justify-content: center;
     }
-    .sponsor > img{
+
+    .sponsor>img {
         width: 50%;
     }
 }
 
 
 /* For Tablet devices  */
-@media only screen and (min-width:577px) and (max-width:992px){
-    
+@media only screen and (min-width:577px) and (max-width:992px) {
+    .feature-list {
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
+
+    .feature-details {
+        align-items: center;
+    }
+
+    .feature-images {
+        grid-row: 2;
+        padding: 10px;
+    }
+
+    .our-features {
+        flex-direction: column;
+    }
+
+    .architect-image {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .experience {
+        position: unset;
+        margin-top: 10px;
+    }
+
+    .facts-card {
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 10px;
+    }
+
+    .dev-tech {
+        grid-row-gap: 15px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .sponsor {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        justify-content: center;
+    }
 }
