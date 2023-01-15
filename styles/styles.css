@@ -152,6 +152,7 @@ nav>ul {
 --------------*/
 .section-title {
     font-size: 2.8rem;
+    font-weight: 700;
 }
 
 .section-description {
@@ -161,9 +162,9 @@ nav>ul {
 }
 
 .facts-card {
-   display: flex;
-   justify-content: space-around;
- 
+    display: flex;
+    justify-content: space-around;
+
     margin-bottom: 150px;
 }
 
@@ -191,6 +192,29 @@ p {
 
 
 
+
+/*-------------
+    //  Our Sponsors styles //
+--------------*/
+
+.sponsor-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.sponsor {
+    max-width: 1140px;
+    margin: 50px auto 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    filter: grayscale(1);
+    /* align-items: start; */
+}
+
+
 footer {
     max-width: 1140px;
     margin: 0 auto;
@@ -199,7 +223,3 @@ footer {
     font-size: 20px;
     text-align: center;
 }
-
-/*-------------
-    //  Header styles //
---------------*/
