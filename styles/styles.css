@@ -140,11 +140,57 @@ nav>ul {
     color: var(--primary-color);
 }
 
+/*-------------
+    //  Features styles //
+--------------*/
+.our-features {
+    display: flex;
+    gap: 60px;
+}
 
+.feature-part {
+    padding: 20px 0;
+}
 
+.feature-part .section-title {
+    border-left: 5px solid var(--primary-color);
+    padding: 5px;
+}
 
+.feature-description {
+    color: var(--secondary-color);
+    width: 542px;
+}
 
+.features {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
+.feature {
+    padding: 15px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px; 
+}
+
+.architect-image>img {
+    width: 100%;
+    height: 90%;
+}
+
+.experience {
+    background-color: var(--primary-color);
+    display: inline-block;
+    padding: 25px;
+    color: white;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    position: relative;
+    top: -50px;
+    left: -35px;
+}
 
 /*-------------
     //  Some Facts styles //
@@ -190,60 +236,6 @@ p {
 
 
 /*-------------
-    //  Features styles //
---------------*/
-.our-features {
-    display: flex;
-    gap: 60px;
-}
-
-.feature-part {
-    padding: 20px 0;
-}
-
-.feature-part .section-title {
-    border-left: 5px solid var(--primary-color);
-    padding: 5px;
-}
-
-.feature-description {
-    color: var(--secondary-color);
-    width: 542px;
-}
-
-.features {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.feature {
-    padding: 15px;
-    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
-    border-radius: 8px;
-    /* borra
-    box-shadow: rgba(100, 100, 110, 0.2) 0px 7px 29px 0px; */
-}
-
-.architect-image>img {
-    width: 100%;
-    height: 90%;
-}
-
-.experience {
-    background-color: var(--primary-color);
-    display: inline-block;
-    padding: 25px;
-    color: white;
-    border-radius: 8px;
-    font-size: 1.5rem;
-    font-weight: 500;
-    position: relative;
-    top: -50px;
-    left: -35px;
-}
-
-/*-------------
     //  Our Sponsors styles //
 --------------*/
 
@@ -265,6 +257,9 @@ p {
 }
 
 
+/*----------
+    // Footer styles //
+-----------*/
 footer {
     max-width: 1140px;
     margin: 0 auto;
