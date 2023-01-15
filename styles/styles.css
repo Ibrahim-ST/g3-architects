@@ -329,10 +329,16 @@ footer {
 -------------------- */
 /* For mobile devices  */
 @media only screen and (max-width:576px) {
-    nav {
+    nav ul {
+        font-weight: 600;
+        gap: 0;
         flex-direction: column;
+        align-items: flex-end;
+        padding: 5px;
     }
-
+    .website-title{
+        font-size: 2.6rem;
+    }
     .banner-title {
         font-size: 2.2rem;
     }
