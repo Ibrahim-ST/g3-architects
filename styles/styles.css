@@ -20,6 +20,13 @@ body {
     font-family: var(--primary-font)
 }
 
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 50px;
+}
+
 /*-------------
     //  Header styles //
 --------------*/
@@ -28,12 +35,6 @@ footer {
     background-color: var(--header-color)
 }
 
-.container {
-    max-width: 1140px;
-    margin: 0 auto;
-    width: 100%;
-    padding-top: 50px;
-}
 
 nav {
     display: flex;
@@ -208,8 +209,7 @@ nav>ul {
 .facts-card {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    justify-items: center;
-    /* margin-bottom: 100px;  */
+    justify-items: center; 
 }
 
 .facts-card .facts {
