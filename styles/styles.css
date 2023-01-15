@@ -209,7 +209,7 @@ nav>ul {
 .facts-card {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px;  */
 }
 
 .facts-card .facts {
@@ -232,6 +232,42 @@ p {
 
 .facts>img {
     width: 45px;
+}
+
+/*-------------
+    //  Technology section styles //
+--------------*/
+.dev-tech-area{
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #2E2E2E;
+    margin: 20px 0 40px;
+}
+.technologies .section-title{
+    text-align: center;
+}
+.dev-tech{
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 10px;
+}
+.dev-tech-items{
+    padding: 10px;
+    background-color: #171717;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dev-tech-items:hover{
+    background-color: white;
+    color: black;
+    transition: background-color 0.6s;
+}
+.dev-tech-items > img{
+    width: 150px;
+    height: 150px;
 }
 
 
